@@ -14,11 +14,20 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <h1>Welcome to Crystal Collector</h1>
-  
+  <div class="container">
+    <h1 class="center">Welcome to Crystal Collector</h1>
+    
+    <button class="btn black" onclick="buttonClick(1)">GEM 1</button>
+    <button class="btn black" onclick="buttonClick(2)">GEM 2</button>
+    <button class="btn black" onclick="buttonClick(3)">GEM 3</button>
+    <button class="btn black" onclick="buttonClick(4)">GEM 4</button>
 
+    <h3>Target Score:  <span id="targetScore"></span></h3>
+    <h3>Total Score: <span id="totalScore">0</span></h3>
 
-
+    <h5>Wins: <span id="wins"></span></h5>
+    <h5>Losses: <span id="losses"></span></h5>
+  </div>
   <!-- Materialize JS  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <!-- my own JS logic -->
